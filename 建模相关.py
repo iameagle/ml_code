@@ -229,4 +229,6 @@ print('cab 线上结果集的auc:{:<8.5f}'.format(roc_auc_score(y_onset,onset_pr
 fpr,tpr,thresholds=roc_curve(y_onset,onset_predictions)
 print('cab 线上结果集的ks:{:<8.5f}'.format(max(tpr-fpr)))
 
+#测试git修改文件
+
     
